@@ -4,7 +4,7 @@ author: "danang/PSDS Matematika UAD"
 date: "3/23/2021"
 output: html_document
 ---
-![](C:/Users/asusa/OneDrive/Documents/R/Header KD 0202.png)
+![](/home/dn/Documents/kuliah/psds/Header KD 0202.png)
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -116,8 +116,8 @@ typeof(c)
 
 Vektor adalah struktur data pada R untuk menyimpan objek-objek dengan tipe yang sama. Di R, kamu dapat membuat vector dengan fungsi gabungan c (). Kamu dapat menempatkan elemen vector diantara tanda kurung dan dipisahkan oleh koma. Sebagai contoh:
 ```{r}
-vektor_numerik <- c(1, 10, 49)
-vektor_character <- c("a","b","c")
+vektor_numerik <- c(3, 2, 4)
+vektor_character <- c("p","q","r")
 ```
 
 kita juga bisa membuat rangkaian data dengan operator titik dua. 
@@ -148,7 +148,7 @@ Pada modul kali ini, akan dibahas mengenai penggunaan fungsi matrix(). untuk men
 
 ```{r}
 #Mendefinisikan matriks A
-A <- matrix(c(1,2,3,4), #Vektor elemen matriks
+A <- matrix(c(1,3,4,6), #Vektor elemen matriks
             2,               #Jumlah baris
             2)               #Jumlah kolom
 A
@@ -166,7 +166,7 @@ is.matrix(A)
 Untuk melakukan operasi Matriks, kita tinggal mendefinisikan matrik yang akan kita operasikan terlebih dahulu kemudian melakukan operasi layaknya kalkulator.
 ```{r}
 #Mendefinisikan matriks A
-A <- matrix(c(2,3,-2,1,2,2),3,2)
+A <- matrix(c(2,3,-2,2,2,2),3,2)
 print(A)
 ```
 ```{r}
